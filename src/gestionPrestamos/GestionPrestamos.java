@@ -19,4 +19,5 @@ public class GestionPrestamos {
         // En este ejemplo, simplemente imprimimos un mensaje indicando que se consultaron los préstamos
         System.out.println("Consultando préstamos del usuario con ID: " + idUsuario);
     }
+
 }
