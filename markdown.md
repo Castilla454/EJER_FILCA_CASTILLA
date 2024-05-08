@@ -10,11 +10,12 @@ Fecha de Finalización: [Fecha de Finalización]
   - ```git flow init``` 
 - [x] Crear y cambiar a la rama `develop`.
   - ```git checkout develop```
-  - []
 ### Tarea 2: Implementación de Características
 #### Característica 1: [Nombre de la Característica]
-- [ ] Crear una nueva rama de características desde `develop`.
-- [ ] Implementar el código correspondiente a la característica.
+- [x] Crear una nueva rama de características desde `develop`.
+    - ```git flow feature start PersonaA```
+- [x] Implementar el código correspondiente a la característica.
+    - ```git add .``` 
 - [ ] Hacer commits regulares mientras se trabaja en la característica.
 - [ ] Realizar pruebas locales para asegurarse de que la característica funcione correctamente.
 - [ ] Fusionar la rama de características en `develop`.
