@@ -16,20 +16,33 @@ Fecha de Finalización: [Fecha de Finalización]
     - ```git flow feature start PersonaA```
 - [x] Implementar el código correspondiente a la característica.
     - ```git add .``` 
-- [ ] Hacer commits regulares mientras se trabaja en la característica.
-- [ ] Realizar pruebas locales para asegurarse de que la característica funcione correctamente.
-- [ ] Fusionar la rama de características en `develop`.
-- [ ] Eliminar la rama de características.
+- [x] Hacer commits regulares mientras se trabaja en la característica.
+    - ```git commit -m "Mensaje del Commit"```
+- [x] Realizar pruebas locales para asegurarse de que la característica funcione correctamente.
+    - ```git push -u origin feature/PersonaA``` 
+- [x] Fusionar la rama de características en `develop`.
+    - ```git flow feature finish PersonaA```
+- [x] Eliminar la rama de características.
+    - ```git branch -d feature/PersonaA```
 #### Característica 2: [Nombre de la Característica]
-- [ ] Crear una nueva rama de características desde `develop`.
-- [ ] Implementar el código correspondiente a la característica.
-- [ ] Hacer commits regulares mientras se trabaja en la característica.
-- [ ] Realizar pruebas locales para asegurarse de que la característica funcione correctamente.
-- [ ] Fusionar la rama de características en `develop`.
-- [ ] Eliminar la rama de características.
+- [x] Crear una nueva rama de características desde `develop`.
+    - ```git flow feature start PersonaB```
+- [x] Implementar el código correspondiente a la característica.
+    - ```git add .```
+- [x] Hacer commits regulares mientras se trabaja en la característica.
+    - ```git commit -m "Mensaje del Commit"```
+- [x] Realizar pruebas locales para asegurarse de que la característica funcione correctamente.
+    - ```git push -u origin feature/PersonaB```
+- [x] Fusionar la rama de características en `develop`.
+    - ```git flow feature finish PersonaB```
+- [x] Eliminar la rama de características.
+    - ```git branch -d feature/PersonaB```
 ### Tarea 3: Integración y Pruebas
-- [ ] Integrar la rama `develop` en `master`.
-- [ ] Realizar pruebas exhaustivas en la versión integrada.
+- [x] Integrar la rama `develop` en `master`.
+    - ```git flow release start 1.0.0```
+    - ```git flow release finish 1.0.0```
+- [x] Realizar pruebas exhaustivas en la versión integrada.
+    -  
 - [ ] Corregir cualquier error o problema encontrado durante las pruebas.
 - [ ] Confirmar que la versión integrada está lista para ser desplegada en producción.
 ### Tarea 4: Documentación y Entrega
