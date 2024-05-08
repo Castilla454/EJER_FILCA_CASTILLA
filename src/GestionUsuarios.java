@@ -10,4 +10,5 @@ public class GestionUsuarios {
     public void autenticarUsuario(String correo, String contraseña) {
         System.out.println("Usuario autenticado con correo: " + correo);
     }
+
 }
